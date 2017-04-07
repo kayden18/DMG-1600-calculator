@@ -4,7 +4,10 @@ using System.Collections;
 
 public class numberInput : MonoBehaviour {
 
-    public InputField firstnumber;
-    public InputField secondnumber;
-    
+    public InputField input;
+    public float numberOnetoFloat()
+    {
+        return float.Parse(input.text);
+    }
+   
 }
