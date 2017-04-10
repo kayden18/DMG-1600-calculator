@@ -5,9 +5,7 @@ using System.Collections;
 public class numberInput : MonoBehaviour {
 
     public InputField input;
-    public float numberOnetoFloat()
-    {
+    public float numberOnetoFloat(){
         return float.Parse(input.text);
     }
-   
 }
