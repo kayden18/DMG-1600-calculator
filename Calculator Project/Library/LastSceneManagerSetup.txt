@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/dmg1600 project.unity
+  isLoaded: 1
+  isActive: 1
