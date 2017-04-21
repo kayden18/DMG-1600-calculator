@@ -7,14 +7,6 @@ public class calButton : MonoBehaviour {
     public InputField input;
     public InputField input2;
     public Text Answer;
-    public Text numbers;
-
-    public void clickNumber(string numberClicked)
-    {
-        string curString = numbers;
-        string newString = curString + numberClicked;
-        myText.text = newString;
-    }
    
     public void buttonClick() {
         int numberOutPut;
@@ -40,7 +32,4 @@ public class calButton : MonoBehaviour {
         Answer.text = numberOutPut.ToString();
         gameObject.GetComponent<Button>().interactable = false;
     }
-
-
-    
 }

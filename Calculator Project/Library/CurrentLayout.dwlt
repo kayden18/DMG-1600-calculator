@@ -140,8 +140,8 @@ MonoBehaviour:
     y: 952
     width: 2011
     height: 332
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -393,9 +393,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c2240000
-    m_LastClickedID: 9410
-    m_ExpandedIDs: 00000000c224000000ca9a3bffffff7f
+    m_SelectedIDs: b4240000
+    m_LastClickedID: 9396
+    m_ExpandedIDs: 00000000b424000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -423,7 +423,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c2240000
+    m_ExpandedIDs: 00000000b4240000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -454,18 +454,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: randomNums
+      m_OriginalName: randomNums
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 16566
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
@@ -539,9 +539,9 @@ MonoBehaviour:
     height: 931
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dc250000
-    m_LastClickedID: 9692
-    m_ExpandedIDs: e2fbffff00000000dc2500008c260000
+    m_SelectedIDs: b6400000
+    m_LastClickedID: 0
+    m_ExpandedIDs: e2fbffff000000006e250000a4250000ae250000b8250000d2250000e6250000f02500005026000068260000822600008e260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -596,9 +596,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 579.48175, y: 459.1738, z: -21.925007}
+    m_Target: {x: 590.34906, y: 457.94855, z: -22.916962}
     speed: 2
-    m_Value: {x: 579.48175, y: 459.1738, z: -21.925007}
+    m_Value: {x: 590.34906, y: 457.94855, z: -22.916962}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -625,9 +625,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.17632732, y: -0.024510367, z: 0.0043918886, w: -0.9840169}
   m_Size:
-    m_Target: 391.83777
+    m_Target: 508.21017
     speed: 2
-    m_Value: 391.83777
+    m_Value: 508.21017
   m_Ortho:
     m_Target: 0
     speed: 2
