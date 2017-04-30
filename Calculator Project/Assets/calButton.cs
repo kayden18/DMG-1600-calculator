@@ -9,7 +9,7 @@ public class calButton : MonoBehaviour {
     public InputField input2;
     public Text Answer;
     public List<Text> randNum;
-
+    
     static private bool chooseInputField = true;
     public int numsToInput;
 
@@ -20,14 +20,19 @@ public class calButton : MonoBehaviour {
         chooseInputField = false;
     }
 
-    public void SteveHatesYou()
+    public void SteveHatesThis()
     {
+        Rigidbody rb;
+
         foreach (Text randInt in randNum)
         {
               if (Answer.text == randInt.text)
             {
                print("answers match");
                randInt.enabled = false;
+
+               rb = randInt.GetComponent<Rigidbody>();
+               rb.isKinematic = true;
             }
         }
     }
