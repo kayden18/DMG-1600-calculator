@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class randomNum : MonoBehaviour
 {
-    
     private int randomNumGenerator;
     public Text randInt;
 
